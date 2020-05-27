@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/startbg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/game_name"
+        android:textSize="32sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:text="@string/intro_txt"
+       android:textColor="@color/black"
+       android:textStyle="bold"
+       android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btn_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:onClick="showInstructions"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/instructions_btn"/>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        >
+
+        <Button
+            android:id="@+id/btn_records"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:onClick="showRecords"
+            android:text="@string/records_table" />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/player_name"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            android:autofillHints="@string/player_name"
+            android:inputType="text"/><!--//one line only-->
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:onClick="checkInput"
+            android:text="@string/start_game" />
+
+    </TableRow>
+
+
+</LinearLayout>

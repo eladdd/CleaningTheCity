@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableRow
+        android:id="@+id/tableBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/firstlevel"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/scoreLabel"
+            android:layout_width="213dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/game_score"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/levelLabel"
+            android:layout_width="235dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:text="@string/level"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <ImageView
+            android:contentDescription="@string/lifes_object"
+            android:id="@+id/heart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"/>
+        <ImageView
+            android:contentDescription="@string/lifes_object"
+            android:id="@+id/heart2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:contentDescription="@string/lifes_object"
+            android:id="@+id/heart3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="top"
+            android:src="@drawable/heart" />
+
+        <com.example.cleaningthecity.MusicButton
+            android:id="@+id/music_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/musicoff"
+            android:gravity="center"
+            android:hint="@string/music_on_off" />
+    </TableRow>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:contentDescription="@string/background_description"
+            android:id="@+id/roadImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/levelUpImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/lvl_animation_description" />
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:text="@string/tap_to_start"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:contentDescription="@string/player_object_description"
+            android:id="@+id/garbageTruckImage"
+            android:layout_width="85dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:contentDescription="@string/object_10points_description"
+            android:id="@+id/objects"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/object1"/>
+
+        <ImageView
+            android:contentDescription="@string/object_harm_description"
+            android:id="@+id/black"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/black"/>
+
+        <ImageView
+            android:contentDescription="@string/bonus_object_description"
+            android:id="@+id/objectBonus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/recyclebonus"/>
+
+        <ImageView
+            android:contentDescription="@string/object_healkit_description"
+            android:id="@+id/objectHeal"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/healkit"/>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CleaningTheCity</string>
+    <string name="game_name">נקיון העיר</string>
+    <string name="try_again">נסה שנית</string>
+    <string name="game_over">המשחק נגמר!</string>
+    <string name="records_table">שיאים</string>
+    <string name="start_game">התחל</string>
+    <string name="check_enter_name">הכנס את שמך</string>
+    <string name="high_score">"שיא: "</string>
+    <string name="player_name">שם שחקן</string>
+    <string name="game_score">"ניקוד: "</string>
+    <string name="records_score">ניקוד</string>
+    <string name="records_rank">דירוג</string>
+    <string name="records_name">שם</string>
+    <string name="level">"שלב: "</string>
+    <string name="tap_to_start">לחץ כדי להתחיל</string>
+    <string name="pb_Status">טבלת ניקוד נטענה</string>
+    <string name="back_menu">חזרה לתפריט</string>
+    <string name="level_up">"שלב "</string>
+    <string name="instructions_window">הוראות</string>
+    <string name="game_instructions">אסוף את כל הזבל בעיר ותזהר מהמוקשים השחורים</string>
+    <string name="game_instructions_title">הוראות המשחק</string>
+    <string name="instructions_btn">הוראות</string>
+    <string name="intro_txt">היי! אנחנו זקוקים לעזרתך בניקיון העיר</string>
+    <string name="instruction_points10">10 נקודות</string>
+    <string name="instruction_points30">30 נקודות</string>
+    <string name="instruction_healkit">התאוששות</string>
+    <string name="instructions_badhit">פגיעה</string>
+    <string name="win_game">כל הכבוד ניצחת!</string>
+    <string name="text_win">הצלחת לנקות את העיר, כל התושבים מודים לך ומעריכים!</string>
+    <string name="text_lose">התושבים מודים על עזרתך אך נשאר עבודה רבה לניקוי העיר, נסה שוב</string>
+    <string name="share">שיתוף התוצאה</string>
+    <string name="titleShare">"היי! סתכל את הניקוד שלי באפליקציה ניקוי העיר: "</string>
+    <string name="music_on_off">כיבוי/הדלקה מוסיקה</string>
+    <string name="sound_click">כפתור הסאונד נלחץ</string>
+    <string name="exit_text_instructions">X</string>
+    <string name="objects_hit_descritpions_instructions">objects Hit</string>
+    <string name="lvl_animation_description">אנימציית עליית רמה</string>
+    <string name="background_description">אנימציית כביש</string>
+    <string name="player_object_description">אובייקט השחקן, משאית</string>
+    <string name="lifes_object">אובייקט חיים</string>
+    <string name="object_10points_description">אובייקטים  10 נקודות</string>
+    <string name="object_harm_description">אובייקט שפוגע בשחקן</string>
+    <string name="bonus_object_description">" בונוס, יותר נקודות"</string>
+    <string name="object_healkit_description">מעלה חיים לשחקן</string>
+</resources>
